@@ -1,15 +1,15 @@
 # AI Analyst Lab
 
-기업분석 포트폴리오 비교용 완성 샘플. 가상 기업 한빛클라우드와 시연용 수치를 사용합니다.
+[기업분석 웹사이트](https://wook321.github.io/ai-analyst-lab/)
 
-## 구성
-- index.html: 반응형 정적 웹사이트. 외부 라이브러리 없음.
-- .nojekyll: 정적 파일 직접 제공.
-- [Notion 포트폴리오](https://app.notion.com/p/3ed365db600d81509982d400313a8ce9)
+공식 실적과 자체 시나리오를 구분하는 개인 AI 리서치 포트폴리오. AI 작성·사람 검토 전 상태를 각 보고서에 표시합니다.
 
-## GitHub Pages 게시
-Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main / (root) → Save.
+## 첫 보고서
+[SK하이닉스: 본업 이익과 자본배분](https://wook321.github.io/ai-analyst-lab/reports/2026-10-03-sk-hynix.html)
 
-게시 성공 후 예상 주소: https://wook321.github.io/ai-analyst-lab/
+## 운영
+2026-10-03~10-07 매일 한국시간 18:00 기업 2개. Codex 대화의 ai-analyst-lab-github 예약이 조사·작성·커밋을 수행하고, GitHub Pages가 main을 게시합니다. 이 저장소에 별도 AI 실행기나 API 키를 두지 않습니다. 예약 등록은 완료됐으나 첫 무인 실행은 아직 검증 전입니다. 기존 ChatGPT 예약은 별개입니다.
 
-모든 기업 수치와 평가 배수는 가상입니다. 실제 투자 의견이 아니며 사람 검증은 미완료입니다. 자동 수집·예약 작성·자동 게시 기능은 구현되어 있지 않습니다.
+세부 운영 규칙: [docs/editorial-policy.md](docs/editorial-policy.md).
+
+reports에는 상세 HTML, 원문 Markdown, 데이터 JSON이 함께 저장됩니다. 디자인용 가상 기업 샘플은 samples에 분리했습니다.

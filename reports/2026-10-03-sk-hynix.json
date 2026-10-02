@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-03-sk-hynix",
+  "company": "SK하이닉스",
+  "ticker": "000660",
+  "sector": "반도체",
+  "date": "2026-10-03",
+  "asOf": "2026-10-03",
+  "type": "실적·기업분석",
+  "publicationType": "선공개",
+  "humanReviewed": false,
+  "status": "AI 작성 · 사람 검토 전",
+  "title": "기록적 실적 다음에 볼 것: 본업 이익과 자본배분",
+  "conclusion": "사업 모멘텀은 긍정적이나, 현재 주가의 매력은 판단 보류. 순이익보다 지속 가능한 영업이익과 투자 후 현금흐름을 우선 확인한다.",
+  "financials": {
+    "currency": "KRW",
+    "unit": "trillion",
+    "basis": "K-IFRS consolidated",
+    "periods": [
+      {
+        "period": "2Q25",
+        "revenue": 22.231952,
+        "operatingProfit": 9.212851,
+        "netProfit": 6.996216
+      },
+      {
+        "period": "1Q26",
+        "revenue": 52.576287,
+        "operatingProfit": 37.610283,
+        "netProfit": 40.345909
+      },
+      {
+        "period": "2Q26",
+        "revenue": 79.318746,
+        "operatingProfit": 60.542608,
+        "netProfit": 93.922593
+      }
+    ],
+    "h1": {
+      "revenue": 131.895033,
+      "operatingProfit": 98.152891,
+      "operatingCashFlow": 91.742501,
+      "ppeAcquisition": 18.328836,
+      "intangibleAcquisition": 0.66518,
+      "dividendsReceived": 13.983648
+    },
+    "q2ValuationGain": 53.237425,
+    "q2DividendIncome": 10.027945
+  },
+  "scenarios": [
+    {
+      "name": "Bear",
+      "g3": -0.1,
+      "g4": -0.1,
+      "m3": 0.6,
+      "m4": 0.55,
+      "r3": 71.3868714,
+      "r4": 64.24818426,
+      "op3": 42.832122840000004,
+      "op4": 35.336501343,
+      "fyRevenue": 267.53008866000005,
+      "fyOp": 176.32151518300003
+    },
+    {
+      "name": "Base",
+      "g3": 0.05,
+      "g4": 0,
+      "m3": 0.7,
+      "m4": 0.68,
+      "r3": 83.28468330000001,
+      "r4": 83.28468330000001,
+      "op3": 58.299278310000005,
+      "op4": 56.63358464400001,
+      "fyRevenue": 298.46439960000004,
+      "fyOp": 213.08575395400004
+    },
+    {
+      "name": "Bull",
+      "g3": 0.15,
+      "g4": 0.1,
+      "m3": 0.78,
+      "m4": 0.78,
+      "r3": 91.2165579,
+      "r4": 100.33821369,
+      "op3": 71.148915162,
+      "op4": 78.26380667820001,
+      "fyRevenue": 323.44980459,
+      "fyOp": 247.5656128402
+    }
+  ],
+  "valuation": {
+    "method": "정상화 연간 영업이익 × 가정 EV/EBIT",
+    "normalEbit": [
+      120,
+      160,
+      200
+    ],
+    "multiples": [
+      4,
+      6,
+      8
+    ],
+    "targetPrice": null,
+    "currentPrice": null,
+    "note": "가치 민감도 분석용 가정. 동종기업 배수나 목표기업가치로 검증되지 않음. 비영업자산·순차입금·비지배지분·희석주식수 조정 전."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "SK hynix 2Q26 실적 발표",
+      "date": "2026-07-29",
+      "url": "https://news.skhynix.com/en/q2-2026-business-results/",
+      "type": "회사 공식 발표",
+      "scope": "제품·수요·HBM4·재무 발표 요약"
+    },
+    {
+      "id": "S2",
+      "title": "2Q26 잠정실적 SEC Form 6-K",
+      "date": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526321989/d115239d6k.htm",
+      "type": "공식 공시",
+      "scope": "분기 매출·영업이익·순이익"
+    },
+    {
+      "id": "S3",
+      "title": "2026 반기보고서 SEC Form 6-K",
+      "date": "2026-08-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526354777/d147827d6k.htm",
+      "type": "공식 공시 · 검색 색인 일부 확인",
+      "scope": "반기 연결 재무제표. 직접 본문은 용량 제한으로 완독 불가"
+    },
+    {
+      "id": "S4",
+      "title": "반기보고서 재게시본 — 연결 재무제표·주석",
+      "date": "2026-08-18",
+      "url": "https://financialfilings.com/filings/sk-hynix-inc/interim-quarterly-report/2026/56530973/",
+      "type": "공시 재게시본",
+      "scope": "연결 현금흐름표 p.8, 금융손익 주석 p.49. 원문 완전 대조 전"
+    },
+    {
+      "id": "S5",
+      "title": "40조 원 자사주 취득·소각 및 주주환원 발표",
+      "date": "2026-08-19",
+      "url": "https://news.skhynix.com/en/share-buyback-and-retirement/",
+      "type": "회사 공식 발표",
+      "scope": "취득 계획·2025~2027 FCF 환원 목표"
+    },
+    {
+      "id": "S6",
+      "title": "Solidigm 관련 보도 해명",
+      "date": "2026-10-01",
+      "url": "https://news.skhynix.com/en/fact-11/",
+      "type": "회사 공식 입장",
+      "scope": "자금조달 방식 미확정·주주가치 평가 기준"
+    }
+  ],
+  "limitations": [
+    "10월 2일 종가·최신 유통주식 수·시장 컨센서스 미검증: 목표주가·상승여력·컨센서스 상회 표현 제외",
+    "반기보고서 세부 주석은 공시 재게시본 사용, SEC 원문 완전 대조 미완료",
+    "시나리오는 단순 매출·영업이익률 모델이며 제품별 물량×가격 모델이 아님",
+    "사람 검토 전이며 증권사 발간물이나 매수·매도 권고가 아님"
+  ]
+}
